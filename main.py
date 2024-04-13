@@ -5,7 +5,6 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.svm import LinearSVC
 import numpy as np
 
-# Замените YOUR_TELEGRAM_BOT_TOKEN на ваш токен Telegram Bot API
 TOKEN = '6509681127:AAGEofK_W9_YxnMvfsgVeloPIh3img45IgM'
 bot = Bot(token=TOKEN)
 
