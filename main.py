@@ -37,8 +37,6 @@ def reply(update, context):
 # Добавляем обработчик сообщений
 dispatcher.add_handler(MessageHandler(Filters.text & ~Filters.command, reply))
 
-
-# Запускаем бота
 updater.start_polling()
 updater.idle()
 
