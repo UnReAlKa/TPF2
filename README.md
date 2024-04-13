@@ -8,7 +8,7 @@ ___
 
 ## Требования к установке
 ```python
-   pip install python-telegram-bot, scikit-learn, numpy , telebot
+   pip install python-telegram-bot, scikit-learn, numpy , telebot , nlk , pandas
    
 ```
 ___
